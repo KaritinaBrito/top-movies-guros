@@ -32,11 +32,7 @@ export const Card = () => {
                         <p className="text-guros-blue500 text-[10px] leading-4 rounded-full border-solid border border-guros-blue500 py-1 px-3">Genero 3</p>
                     </div>
                 </section>  
-            </section>
-            <section className="flex gap-4 lg:justify-end lg:place-items-end">
-                <button className=" text-guros-blue500 border border-solid border-guros-blue500 p-1 rounded-lg w-1/2 lg:w-[170px]">Anterior</button>
-                <button className=" text-guros-blue500 border border-solid border-guros-blue500 p-1 rounded-lg w-1/2 lg:w-[170px]">Siguiente</button>
-            </section>
+            </section>            
         </main>
 
     )
