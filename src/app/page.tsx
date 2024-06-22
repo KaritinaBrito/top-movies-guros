@@ -1,6 +1,6 @@
 "use client"
 
-import React, { MouseEventHandler } from "react";
+import React from "react";
 import { useState,useEffect } from "react";
 import Image from "next/image";
 import axios from 'axios';
@@ -9,10 +9,9 @@ import axios from 'axios';
 import { MovieProps, MovieSingleProps } from '../../types';
 import { Card } from "app/components/Card";
 import { Modal } from "app/components/Modal";
-import {BEARER_KEY, BASE_URL } from '../../secrets';
 
-const BEARER_KEY1 = BEARER_KEY;
-const BASE_URL1 = BASE_URL;
+const BEARER_KEY1 = process.env.BEARER_KEY;
+const BASE_URL1 = process.env.BASE_URL;
 
 const ITEMS_PER_PAGE = 5;
 
