@@ -22,57 +22,17 @@ Este es un componente React desarrollado para mostrar películas populares utili
 4. Abre en tu navegador http://localhost:3000
 
 ## Vistas
-Vista Desktop:
-
-[Image text](/public/desktop.png)
-
-
-Vista Mobile:
-
-[Image text](/public/mobile.png)
-
-Vista modal Desktop:
-
-[Image text](/public/modal-desktop.png)
-
-Vista modal Mobile:
-
-[Image text](/public/modal-mobile.png)
-
-Vista envio de calificación Desktop:
-
-[Image text](/public/envio-calificacion-mob.png)
-
-
-Vista envio de calificación Desktop:
-
-[Image text](/public/envio-calificacion-mobile.png)
-
-
 <div align="center">
-  <h3>
-    <a href="/public/mobile.png">
-      Vista Mobile
-    </a>
-    <span> | </span>
-    <a href="/public/mobile.png">
-      Vista Desktop:
-    </a>
-    <span> | </span>
-    <a href="/public/modal-mobile.png">
-      Vista modal Desktop:
-    </a>
-    <span> | </span>
-    <a href="/public/modal-mobile.png">
-      Vista modal Mobile:
-    </a>
-    <span> | </span>
-    <a href="/public/envio-calificacion-mob.png">
-      Vista envio de calificación Desktop:
-    </a>
-        <span> | </span>
-    <a href="/public/envio-calificacion-mobile.png">
-      Vista envio de calificación Mobile:
-    </a>
-  </h3>
+    <p>Vista Mobile</p>
+    <img src="/public/mobile.png" />
+    <p>Vista Desktop:</p>
+    <img src="/public/mobile.png" />
+    <p>Vista modal Desktop:</p>
+    <img src="/public/modal-mobile.png">
+    <p>Vista modal Mobile:</p>
+    <img src="/public/modal-mobile.png">
+    <img src="/public/envio-calificacion-mob.png">
+    <p>Vista envio de calificación Desktop:</p>
+    <img src="/public/envio-calificacion-mobile.png">
+    <p>Vista envio de calificación Mobile:</p>
 </div>
