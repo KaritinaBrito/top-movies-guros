@@ -5,11 +5,10 @@ import { useState,useEffect } from "react";
 import Image from "next/image";
 import axios from 'axios';
 
-
 import { MovieProps, MovieSingleProps } from '../../types';
 import { Card } from "app/components/Card";
 import { Modal } from "app/components/Modal";
-import { REACT_BASE_URL, REACT_BEARER_KEY } from "../../api";
+import { REACT_BASE_URL, REACT_BEARER_KEY } from "app/components/api";
 
 
 const ITEMS_PER_PAGE = 5;
