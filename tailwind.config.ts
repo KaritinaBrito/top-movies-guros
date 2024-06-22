@@ -16,7 +16,8 @@ const config: Config = {
         gray200: "#D3D7DA",
         blue500: "#4C42E4",
         white: "#FFFFFF",
-        pink500: "#E5004D"
+        pink500: "#E5004D",
+        success: "#00DA4A"
       }
     }
   },
