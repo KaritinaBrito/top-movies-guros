@@ -47,4 +47,32 @@ Vista envio de calificación Desktop:
 Vista envio de calificación Desktop:
 
 [Image text](/public/envio-calificacion-mobile.png)
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+
+<div align="center">
+  <h3>
+    <a href="/public/mobile.png">
+      Vista Mobile
+    </a>
+    <span> | </span>
+    <a href="/public/mobile.png">
+      Vista Desktop:
+    </a>
+    <span> | </span>
+    <a href="/public/modal-mobile.png">
+      Vista modal Desktop:
+    </a>
+    <span> | </span>
+    <a href="/public/modal-mobile.png">
+      Vista modal Mobile:
+    </a>
+    <span> | </span>
+    <a href="/public/envio-calificacion-mob.png">
+      Vista envio de calificación Desktop:
+    </a>
+        <span> | </span>
+    <a href="/public/envio-calificacion-mobile.png">
+      Vista envio de calificación Mobile:
+    </a>
+  </h3>
+</div>
