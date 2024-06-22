@@ -11,6 +11,8 @@ Este es un componente React desarrollado para mostrar películas populares utili
 ## Instalación
 1. Clona este repositorio en tu máquina local.
 
+
+
 2. Instala las dependencias usando npm:
     npm install
 
@@ -19,4 +21,30 @@ Este es un componente React desarrollado para mostrar películas populares utili
 
 4. Abre en tu navegador http://localhost:3000
 
+## Vistas
+Vista Desktop:
+
+[Image text](/public/desktop.png)
+
+
+Vista Mobile:
+
+[Image text](/public/mobile.png)
+
+Vista modal Desktop:
+
+[Image text](/public/modal-desktop.png)
+
+Vista modal Mobile:
+
+[Image text](/public/modal-mobile.png)
+
+Vista envio de calificación Desktop:
+
+[Image text](/public/envio-calificacion-mob.png)
+
+
+Vista envio de calificación Desktop:
+
+[Image text](/public/envio-calificacion-mobile.png)
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
