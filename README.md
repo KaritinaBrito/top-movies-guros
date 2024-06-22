@@ -22,6 +22,7 @@ Este es un componente React desarrollado para mostrar películas populares utili
 4. Abre en tu navegador http://localhost:3000
 
 ## Vistas
+
 <div align="center">
     <p>Vista Mobile</p>
     <img src="/public/mobile.png" />
