@@ -3,3 +3,4 @@ export const REACT_API_KEY = "08c6ab0765cc91958b3fadf9046f153d"
 export const REACT_BASE_URL = "https://api.themoviedb.org/3"
 export const REACT_IMAGE_PATH = "https://image.tmdb.org/t/p/original"
 export const REACT_URL_IMAGE = "https://image.tmdb.org/t/p/original"
+

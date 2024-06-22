@@ -17,7 +17,6 @@ const ITEMS_PER_PAGE = 5;
 export default function Home() {
   const [modalActive, setModalActive] = useState(false);
   const [data, setData] = useState<MovieProps[]>([]);
-  const [idMovie, setIdMovie] = useState(0);
   const [movie, setMovie] = useState<MovieSingleProps>();
   const [category, setCategory] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
