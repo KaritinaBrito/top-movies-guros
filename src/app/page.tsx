@@ -9,9 +9,8 @@ import axios from 'axios';
 import { MovieProps, MovieSingleProps } from '../../types';
 import { Card } from "app/components/Card";
 import { Modal } from "app/components/Modal";
+import { REACT_BASE_URL, REACT_BEARER_KEY } from "../../api";
 
-const BEARER_KEY1 = process.env.BEARER_KEY;
-const BASE_URL1 = process.env.BASE_URL;
 
 const ITEMS_PER_PAGE = 5;
 
@@ -25,10 +24,10 @@ export default function Home() {
   
   
   const api= axios.create({
-    baseURL: BASE_URL1,
+    baseURL: REACT_BASE_URL,
     headers: {
       accept: 'application/json',
-      Authorization: BEARER_KEY1
+      Authorization: REACT_BEARER_KEY
     }
   })
   
@@ -71,7 +70,7 @@ export default function Home() {
 
     const getCategegoriesPreview = async()=> {
       try {
-        const { data } = await api.get('genre/movie/list');
+        const { data } = await api.get('/genre/movie/list');
         const categories = data.genres;
         console.log(categories);
         setCategory(categories);
