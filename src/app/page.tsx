@@ -118,7 +118,7 @@ export default function Home() {
             </div>
         ))}
       </section>
-      <section className="flex gap-4 lg:justify-end lg:place-items-end">
+      <section className="flex gap-4 lg:justify-end lg:place-items-end pb-5">
         <button onClick={prevPage} className=" text-guros-blue500 border border-solid border-guros-blue500 p-1 rounded-lg w-1/2 lg:w-[170px]">Anterior</button>
         <button onClick={nextPage} className=" text-guros-blue500 border border-solid border-guros-blue500 p-1 rounded-lg w-1/2 lg:w-[170px]">Siguiente</button>
       </section>

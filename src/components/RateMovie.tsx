@@ -16,7 +16,7 @@ export const RateMovie = () => {
     }
 
     return(
-        <main className="w-full flex justify-center  flex-col gap-5 mb-0 lg:place-items-center relative">
+        <main className="w-full flex justify-center  flex-col gap-1 mb-0 lg:gap-5 md:gap-5 lg:place-items-center relative">
             {sendScore && (
                 <section className="w-full lg:w-1/3 lg:top-4 z-20 top-0 right-0 flex place-content-evenly px-2 py-4 lg:py-2 items-center bg-guros-gray950 fixed border-solid border-b-4 border-guros-success">
                     <CiCircleCheck className="text-guros-success" size={24}/>
