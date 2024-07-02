@@ -56,7 +56,7 @@ export interface MovieSingleProps {
 
 export interface GenreProps {
     id: number
-    name: string
+    name?: string
 }
 
 export interface ProductionCompanyProps {
@@ -76,12 +76,17 @@ export interface SpokenLanguageProps {
     iso_639_1: string
     name: string
 }
-interface CardProps {
+export interface CardProps {
     id: number,
     poster: string,
     vote_average: number,
     title: string,
     description: string,
-    genre_ids?: number[] | string[],
+    genre_ids?: (string | null | undefined)[];
     handleShowModal?
+}
+
+export interface ButtonNextBackProps {
+    onclick: MouseEventHandler<HTMLElement>,
+    action: string,
 }

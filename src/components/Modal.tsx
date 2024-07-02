@@ -33,7 +33,7 @@ export const Modal = ({genres, title, description, vote_average, id, poster, han
                         <p className="text-guros-gray500 font-normal text-base">{description}</p>  
                     </div>
                     <div className="flex mb-2 justify-end gap-2 ">
-                        <p className="text-guros-blue500 text-[10px] leading-4 rounded-full border-solid border border-guros-blue500 py-1 px-">{genres}</p>
+                        <p className="text-guros-blue500 text-[10px] leading-4 rounded-full border-solid border border-guros-blue500 py-1 px-4">{genres}</p>
                     </div>
                     <div className="lg:mt-40">
                         <RateMovie />
