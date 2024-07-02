@@ -1,7 +1,7 @@
 export const env = {
-    BEARER_KEY: process.env.NEXT_PUBLIC_BEARER_KEY,
-    API_KEY: process.env.NEXT_PUBLIC_API_KEY,
-    BASE_URL: process.env.NEXT_PUBLIC_BASE_URL,
-    IMAGE_PATH: process.env.NEXT_PUBLIC_IMAGE_PATH,
-    URL_IMAGE: process.env.NEXT_PUBLIC_URL_I
+    BEARER_KEY: process.env.BEARER_KEY,
+    API_KEY: process.env.API_KEY,
+    BASE_URL: process.env.BASE_URL,
+    IMAGE_PATH: process.env.IMAGE_PATH,
+    URL_IMAGE: process.env.URL_IMAGE
 }
